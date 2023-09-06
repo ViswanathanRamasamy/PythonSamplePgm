@@ -1,3 +1,10 @@
+"""
+	Sample program for the python-1.
+	Share , Subscribe and give me your valuable comments.
+	Source Code Location: https://github.com/ViswanathanRamasamy/RockYourInterview-CPP/
+	Author Name: Viswanathan Ramasamy
+	Email id: rviswawt@gmail.com
+
 python work on different platform like windows, mac, linux, raspherry-pi. python is easy to learn. 
 python needs few lines of code when compare to other language.
 python is used in google, netflex, facebook and spotify
@@ -12,7 +19,7 @@ NumPy and SciPy are used for scientific computation
 SciPy uses the NumPy,
 Django: web framework, clean, programatic and design
 
-Highly Supportive Community and instead open parthesis python uses intention.
+Highly Supportive Community and instead open parthesis python uses intention."""
 ========================================
 c0mment statement
 
