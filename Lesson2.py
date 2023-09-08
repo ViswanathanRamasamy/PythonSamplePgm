@@ -1,9 +1,10 @@
 """
-	Sample program for the python-1.
-	Share , Subscribe and give me your valuable comments.
+	Lesson 2: Sample program for the python.
 	Source Code Location: https://github.com/ViswanathanRamasamy/RockYourInterview-CPP/
 	Author Name: Viswanathan Ramasamy
 	Email id: rviswawt@gmail.com
+"""
+"""
 python is used in google, facebook and spotify
 in python there is no intermediate executable file or binary file. in python compiler convert the source file into bytecode and then interpretor 
 run on it.

@@ -1,7 +1,6 @@
 """
-	Sample program for the python-1.
-	Share , Subscribe and give me your valuable comments.
-	Source Code Location: https://github.com/ViswanathanRamasamy/RockYourInterview-CPP/
+	Lesson 1: Sample program for the python.
+	Source Code Location: https://github.com/ViswanathanRamasamy/PythonSamplePgm.git
 	Author Name: Viswanathan Ramasamy
 	Email id: rviswawt@gmail.com
 
