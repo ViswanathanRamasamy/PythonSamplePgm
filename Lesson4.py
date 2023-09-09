@@ -669,7 +669,7 @@ set("geeks")
 set will not allow the duplicate and order of the element in the set will be different while prirninting
 
 import random
-t=random.randgen(1,10)
+t=random.randrange(1,10)
 
 obj3=obj1+obj2; def __add__(self,others)
 

@@ -20,12 +20,63 @@ Django: web framework, clean, programatic and design
 
 Highly Supportive Community and instead open parthesis python uses intention."""
 ========================================
-c0mment statement
+comment statement
 
+#single line comments
 #This is a comment
-#written in
+#Variable name are case sensitive in python
 #more than just one line
 
+#How to run the python?
+python Lesson.py
+========================
+#how to change the data type of the variable for int to string
+x=4
+x = "viswa" #or x = 'Viswa'
+
+a = """ hi
+good morning
+How are you
+"""
+
+print(a)
+
+output:
+hi
+good morning
+How are you
+=================
+#slicing the string
+str1="hello world"
+print(str1[:5] # print 0 to 4
+print(str1[2:5] # print the character from 2 to 4
+b = "Hello, World!"
+print(b[-5:-2]) #-5 to -2 character
+
+s ="    hi hi"
+s.strip()  # will remove the white spaces in the begining
+s.split()  #["hi","hi"]
+a = "HelloH, World!"
+print(a.replace("H", "J"))
+====================
+#note we cannot use the combination of """ and '''
+a = '''hi
+good morning
+How are you
+'''
+
+print(a)
+
+hi
+good morning
+How are you
+
+===========================
+
+a = "HelloH, World!"
+print(a.replace("H", "J"))
+===
+replaced the H with J . case sensitive
 ======>
 """
 This is a comment
@@ -33,7 +84,44 @@ written in
 more than just one line
 """
 ===============
+age = 36
+txt = "My name is John, and I am {age}"
+print(txt)
+txt = f"My name is John, and I am {age}"
+print(txt)
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+=======
+output:
+My name is John, and I am {age}
+My name is John, and I am 36
+My name is John, and I am 36
 =======================
+x = "Hello"
+y = 15
+
+print(bool(x)) #True
+print(bool(y)) # True
+bool(["apple", "cherry", "banana"]) #True
+===========================
+print(bool(False)) #False
+print(bool(None)) #False
+print(bool(0)) #False
+print(bool("")) #False
+print(bool(())) #False
+print(bool([])) #False
+print(bool({})) #False
+===========================
+
+class myclass(): # class name() () is not must
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj)) # false
+
+===============================
 some datastructures present in python:
 list => mutable ie can be modified l = ["viswa","hi"],
 list:Negative indexing means start from the end.
@@ -1493,6 +1581,17 @@ myfunc()
 ============================================
 print(5+10) #15
 ================================
+def function():
+   return True
+   
+if myfunction():
+   print("True")
+   
+x = 200
+print(isinstance(x, int)) #True
+
+print(10 > 9) #true
+
 """
 Points to be noted:
 python packages consists of module , module has class and function
@@ -1504,7 +1603,7 @@ ValueError
 IndexError
 
 pop, pop(index), remove(key), del key or index depend on the data type
-dict: popiems, uodate, get clear
+dict: popiems, update, get clear
 .index: return the index
 insert and append
 
